@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome da Igreja</title>
+    <title>Igreja Luz e Esperança</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #333; color: white; padding: 15px; text-align: center; }
-        nav { display: flex; justify-content: center; background: #444; padding: 10px; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        .container { padding: 20px; text-align: center; }
-        .service { margin-bottom: 20px; }
-        .calendar, .donations { margin-top: 40px; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #2c3e50; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        nav { display: flex; justify-content: center; background: #34495e; padding: 15px; }
+        nav a { color: white; margin: 0 20px; text-decoration: none; font-size: 18px; }
+        .container { padding: 40px; text-align: center; }
+        .service { margin-bottom: 20px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .calendar, .donations, .contact { margin-top: 40px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        img { max-width: 100%; border-radius: 10px; }
+        .btn { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #2980b9; color: white; text-decoration: none; border-radius: 5px; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Nome da Igreja</h1>
+        <h1>Igreja Luz e Esperança</h1>
     </header>
     <nav>
         <a href="#services">Serviços Sociais</a>
@@ -28,25 +30,33 @@
         <section id="services">
             <h2>Serviços Sociais</h2>
             <p>Oferecemos apoio a famílias, orientação pastoral, assistência social, projetos comunitários, cursos e reuniões de apoio.</p>
-            <div class="service"><img src="familias.jpg" alt="Apoio a famílias"><br><a href="#">Detalhes</a></div>
-            <div class="service"><img src="pastoral.jpg" alt="Orientação pastoral"><br><a href="#">Detalhes</a></div>
-            <div class="service"><img src="social.jpg" alt="Assistência social"><br><a href="#">Detalhes</a></div>
+            <div class="service"><img src="familias.jpg" alt="Apoio a famílias"><br><a class="btn" href="apoio.html">Saiba mais</a></div> <!-- Link para Apoio a Famílias -->
+            <div class="service"><img src="pastoral.jpg" alt="Orientação pastoral"><br><a class="btn" href="pastoral.html">Saiba mais</a></div>
+            <div class="service"><img src="social.jpg" alt="Assistência social"><br><a class="btn" href="assistencia.html">Saiba mais</a></div>
         </section>
         <section id="calendar" class="calendar">
-            <h2>Calendário de Eventos</h2>
+            <h2>Calendário de Eventos 2025</h2>
             <p>Confira datas de cultos, eventos comunitários e arrecadações.</p>
-            <img src="calendario.jpg" alt="Calendário de eventos">
+            <ul>
+                <li>Janeiro 15 - Culto de Ano Novo</li>
+                <li>Fevereiro 10 - Arrecadação de alimentos</li>
+                <li>Março 20 - Encontro de Jovens</li>
+                <li>Abril 12 - Páscoa Comunitária</li>
+                <li>Maio 25 - Evento Beneficente</li>
+                <li>Junho 18 - Curso de Culinária</li>
+            </ul>
         </section>
         <section id="donations" class="donations">
             <h2>Arrecadação de Doações</h2>
             <p>Doe online via Pix, cartões ou presencialmente.</p>
+            <p><strong>Pix:</strong> +55 11 96653-4020</p>
             <img src="doacoes.jpg" alt="Doações"><br>
-            <a href="#">Saiba como doar</a>
+            <a class="btn" href="#">Saiba como doar</a>
         </section>
-        <section id="contact">
+        <section id="contact" class="contact">
             <h2>Contato</h2>
-            <p>WhatsApp: (XX) XXXX-XXXX</p>
-            <p>Email: contato@igreja.com</p>
+            <p>WhatsApp: +55 11 96653-4020</p>
+            <p>Email: contato@igrejaluzesperanca.com</p>
         </section>
     </div>
 </body>
